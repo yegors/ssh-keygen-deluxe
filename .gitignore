@@ -1,0 +1,42 @@
+# Build artifacts
+dist/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust build artifacts
+**/*.rs.bk
+*.pdb
+
+# SSH Key files
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+*.pub
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
